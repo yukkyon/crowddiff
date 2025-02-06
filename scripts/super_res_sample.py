@@ -79,7 +79,7 @@ def main():
     avg_mae = None
     # for _ in tqdm(os.listdir(args.data_dir)):
     for _ in os.listdir(args.data_dir):
-
+    print("A")
         model_kwargs = next(data)       
         data_parameter = DataParameter(model_kwargs, args)
         
